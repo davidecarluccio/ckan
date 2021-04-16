@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+
+  ckan:
+    build:
+      context: ./
+    image: ckan-it:2.6.8-dev.2
+
+  solr:
+    build:
+      context: ./solr
+    image: ckan-it-solr:2.3.0-dev.1

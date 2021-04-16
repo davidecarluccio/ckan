@@ -1,0 +1,2 @@
+include README.md
+recursive-include ckanext/multilang *.html *.json *.js *.less *.css
